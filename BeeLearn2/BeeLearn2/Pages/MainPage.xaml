@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BeeLearn2.Pages.MainPage" Title="Main Page">
+	<ContentPage.ToolbarItems>
+        
+        <ToolbarItem Text="Logout" Clicked="OnLogoutButtonClicked" />
+        
+        
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+		<StackLayout>
+			<Label Text="Main app content goes here"  />
+            <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+            <Button Text="Quiz Game" Clicked="OnQuizButtonClicked" />
+            <Button Text="Learn with us!" Clicked="OnLearnButtonClicked" />
+            <Button Text="Personal assistant" Clicked="OnAssistantButtonClicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
